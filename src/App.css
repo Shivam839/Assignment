@@ -114,7 +114,6 @@
 .eventProgrammer {
   width: 35%;
   height: 950px;
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   padding: 30px;
@@ -188,4 +187,26 @@
   position: absolute;
   bottom: 0;
   right: 0;
+}
+@media screen and (max-width: 1100px) {
+  .app {
+    flex-direction: column;
+    height: auto;
+  }
+  .slider {
+    width: 100%;
+  }
+  .imageSlider {
+    right: 10px;
+    left: 400px;
+  }
+  .slider .toggle {
+    left: 300px;
+  }
+  .eventProgrammer {
+    width: 100%;
+  }
+  .slider .pbackground {
+    rotate: 0 deg;
+  }
 }
